@@ -23,8 +23,8 @@ import {
 import {
   generateMachineCode,
   generateAssembly,
-} from '@/lib/machineCodeGenerator';
-import { convertToBinary } from '@/lib/binaryConverter';
+} from '@/utils/machineCodeGenerator';
+import { convertToBinary } from '@/utils/binaryConverter';
 import { CODE_EXAMPLES, BINARY_EXAMPLES } from '@/constants/examples';
 import { ConfigurationPanel } from '@/components/ConfigurationPanel';
 import { ExampleButtons } from '@/components/ExampleButtons';
